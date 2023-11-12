@@ -1,0 +1,51 @@
+p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    size: 15px;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+
+h2 {
+    font-family: "Outfit";
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin: 0%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(212, 45%, 89%);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#qr-code {
+    background-color: white;
+    width: 320;
+    height: 500;
+    border-radius: 20px;
+}
+
+#legend {
+    width: 85%;
+    margin: auto;
+}
+
+img {
+    border-radius: 25px;
+    padding: 5%;
+    aspect-ratio: 1;
+    /* Ensure the image takes up the full width and height of the parent div */
+    width: 90%;
+    /* Prevent the image from overflowing its parent div */
+    /* Center the image both horizontally and vertically within the parent div */
+    position: relative;
+    margin: auto;
+}
